@@ -1,0 +1,105 @@
+/* bootstrap */
+body{
+#btbheader{
+    margin-top: 10px;
+}
+#profile{
+    margin-top: 10px;
+    color:white;
+}
+
+
+/*row-2 & col-right  */
+
+#btbleft1{background-color: rgb(207, 207, 207); border: none;}
+#btbleft2{background-color: rgb(207, 207, 207); border: none;}
+
+
+
+
+
+
+
+#btb1{
+color: white;
+background-color: rgb(17, 0, 255);
+
+padding-right: 330px;
+padding-top: 15px;
+padding-bottom:15px;
+}
+
+#btb2{
+color: white;
+background-color: rgb(117, 152, 0);
+
+padding-right: 330px;
+padding-top: 15px;
+padding-bottom:15px;
+}
+
+#btb3{
+color: white;
+background-color: red;
+padding-right: 420px;
+
+padding-bottom:50px;
+margin-top: 10px;
+}
+
+#btb4{
+color: white;
+background-color: red;
+padding-right: 420px;
+padding-bottom:50px;
+}
+
+#btb5{
+color: white;
+background-color: red;
+padding-right: 420px;
+padding-bottom:50px;
+margin-bottom: 10px;
+}
+
+#btb6{
+color: white;
+background-color: orange;
+padding-right: 420px;
+padding-bottom:50px;
+margin-top: 10px;
+}
+
+#btb7{
+    color: white;
+    background-color: orange;
+    padding-right: 420px;
+    padding-bottom:50px;
+   
+    }
+
+    #btb8{
+        color: white;
+        background-color: orange;
+        
+        padding-right: 420px;
+        padding-bottom:50px;
+        margin-bottom: 10px;
+        }
+
+/*data box*/
+#RightColLeftSide{
+    background-color: blue;
+    margin-left:10px;
+    border-radius: 10px;
+    
+}
+
+#RightColRightSide{
+    background-color: rgb(117, 152, 0);
+    margin-right:10px;
+    border-radius: 10px;
+}
+
+
+}

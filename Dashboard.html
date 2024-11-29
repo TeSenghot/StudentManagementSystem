@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+<title>Dashboard Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+<div class="container text-center" style="border: 1px solid rgb(210, 210, 210); background-color: rgb(236, 236, 236); border-radius: 15px;">
+
+<!-- First row -->
+    <div class="row justify-content-start" style="background-color: blue; height: 60px; border-radius: 15px 15px 0px 0px;"> 
+        <div class="col">
+           
+            <h4 id="profile">Profile</h4>
+
+        </div>
+        <div class="col">
+            <button class="btn btn-primary" type="button" id="btbheader">Data Center</button>
+        </div>
+    </div>
+
+    <br>
+
+<!-- second row-->
+    <div class="row align-items-start">
+
+
+        <!--left column-->
+        
+        <div  class="col-3"> <br>
+            <div class="row" >
+                <button class="btn btn-primary" id="btbleft1" type="button"></i><i class="fa-solid fa-house-chimney"></i>Home</button>
+            </div>
+        
+            <div class="row">
+                <button class="btn btn-primary" id="btbleft2" type="button"><i class="fa-solid fa-medal"></i>Score</button>
+            </div>
+        </div>
+       
+
+        
+
+        <!--Right col-->
+        <div class="col" style="border:1px solid rgb(200, 255, 0); background-color: white; align-items: center; border-radius: 15px; padding-top:15px; padding-bottom:10px;">  
+            <button class="btn btn-primary" id="btb1" type="button">Total Student   &nbsp; &nbsp; &nbsp;<i class="fa-solid fa-user"></i></button>
+            <button class="btn btn-primary" id="btb2" type="button">Student Passed &nbsp;<i class="fa-solid fa-book-open"></i></button>
+
+          
+            <!--inside right column left side -->   
+           
+            <div class="row"> 
+                 
+                    <div id="RightColLeftSide" class="col" style="border:1px solid rgb(200, 255, 0);">
+                        
+                        <button class="btn btn-primary" id="btb3" type="button"></button>
+                        <button class="btn btn-primary" id="btb4" type="button"></button>
+                        <button class="btn btn-primary" id="btb5" type="button"></button>
+                
+                    </div>
+
+                    <!--inside right column right side -->   
+                    <div id="RightColRightSide" class="col" style="border:1px solid rgb(200, 255, 0);"> 
+                        
+                        <button class="btn btn-primary" id="btb6" type="button"></button>
+                        <button class="btn btn-primary" id="btb7" type="button"></button>
+                        <button class="btn btn-primary" id="btb8" type="button"></button>
+            
+                    </div>
+                </div>
+
+                 
+
+        </div>
+
+
+
+
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script
+</body>
+
+</html>
